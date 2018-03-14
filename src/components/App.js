@@ -8,8 +8,8 @@ import ArtistDetail from '../container/HCArtistDetail';
 const App = () => (
       <div className="App">
          <SearchBar/>
-         <ArtistDetail />
         <ArtistList />
+        <ArtistDetail />
       </div>
     );
 
